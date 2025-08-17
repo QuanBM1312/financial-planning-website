@@ -50,7 +50,7 @@ function FinancialCapacitySection() {
           <div className="grow max-md:max-w-full">
             <article className="relative w-full overflow-hidden rounded-xl aspect-video">
               <img
-                src="https://api.builder.io/api/v1/image/assets/TEMP/6cce95255c4186912819da6589619a7ecef117ae?placeholderIfAbsent=true&apiKey=21a904a4570c4407b134859bfb7965ad"
+                src="/Capacity1.png"
                 className="absolute inset-0 w-full h-full object-cover"
                 alt="Instant calculation background"
               />
@@ -70,7 +70,7 @@ function FinancialCapacitySection() {
             </article>
             <div className="flex flex-col justify-center px-9 py-7 mt-1.5 rounded-xl border border-gray-200 border-solid bg-light-cyan max-md:px-5 max-md:max-w-full">
               <img
-                src="https://api.builder.io/api/v1/image/assets/TEMP/efec75dd-d7ff-4221-b1ae-4dc19e5fca01?placeholderIfAbsent=true&apiKey=21a904a4570c4407b134859bfb7965ad"
+                src="/Capacity2.png"
                 className="object-contain w-full bg-white aspect-[2.76] max-md:max-w-full"
                 alt="Financial calculation interface"
               />

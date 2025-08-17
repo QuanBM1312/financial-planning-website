@@ -20,7 +20,7 @@ function FeasibilitySection() {
                 </p>
               </article>
               <img
-                src="https://api.builder.io/api/v1/image/assets/TEMP/10c4f333302387afb8e37382dd1ab75a4e0be14f?placeholderIfAbsent=true&apiKey=21a904a4570c4407b134859bfb7965ad"
+                src="/chart.svg"
                 className="object-contain mt-9 w-full rounded-none aspect-[4.67] max-md:max-w-full"
                 alt="Feasibility assessment chart"
               />
@@ -41,7 +41,7 @@ function FeasibilitySection() {
           <div className="w-6/12 max-md:ml-0 max-md:w-full rounded-xl">
             <article className="flex relative flex-col grow justify-center p-0.5 text-xl font-medium tracking-normal leading-6 text-center text-white min-h-[225px] max-md:mt-1.5 max-md:max-w-full">
               <img
-                src="https://api.builder.io/api/v1/image/assets/TEMP/5fd3f4a54de9ee33a5b52acbcfa6e38ab6000ccb?placeholderIfAbsent=true&apiKey=21a904a4570c4407b134859bfb7965ad"
+                src="/key.png"
                 className="object-cover absolute inset-0 size-full"
                 alt="Explanation background"
               />
@@ -56,7 +56,7 @@ function FeasibilitySection() {
           <div className="w-6/12 max-md:ml-0 max-md:w-full rounded-xl">
             <article className="flex relative flex-col grow rounded-xl items-start px-8 pt-36 pb-6 min-h-[219px] max-md:px-5 max-md:pt-24 max-md:mt-2 max-md:max-w-full">
               <img
-                src="https://api.builder.io/api/v1/image/assets/TEMP/fdcd2c0220f95f4fd36843dce643b7841bdcda26?placeholderIfAbsent=true&apiKey=21a904a4570c4407b134859bfb7965ad"
+                src="/result.png"
                 className="object-cover absolute inset-0 size-full rounded-xl"
                 alt="Timeline background"
               />

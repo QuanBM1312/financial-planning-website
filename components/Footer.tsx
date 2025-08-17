@@ -10,7 +10,7 @@ function Footer() {
         <div className="flex-shrink-0 w-full md:w-auto">
           <img
             // Thay bằng logo SVG hoặc URL ảnh mới của bạn
-            src="https://api.builder.io/api/v1/image/assets/TEMP/5cb4b9653487641fe633f69266a8f7cff225d4a4?placeholderIfAbsent=true&apiKey=21a904a4570c4407b134859bfb7965ad"
+            src="/FinfulLogo.png"
             className="w-32 h-auto"
             alt="Finful logo"
           />
@@ -19,16 +19,16 @@ function Footer() {
           </p>
           <div className="flex items-center gap-4 mt-6">
             {/* Thay bằng SVG icons nếu có thể */}
-            <a href="https://www.facebook.com/finful.co" aria-label="Facebook">
+            <a href="https://www.facebook.com/finful.co" target="_blank" aria-label="Facebook">
               <img
-                src="https://api.builder.io/api/v1/image/assets/TEMP/ada141f2441e83d100ce7128eda9d644be24a528?placeholderIfAbsent=true&apiKey=21a904a4570c4407b134859bfb7965ad"
+                src="/face.png"
                 className="w-7 h-7"
                 alt="Facebook icon"
               />
             </a>
-            <a href="https://www.linkedin.com/company/finful/" aria-label="LinkedIn">
+            <a href="https://www.linkedin.com/company/finful/" target="_blank" aria-label="LinkedIn">
                <img
-                src="https://api.builder.io/api/v1/image/assets/TEMP/6f42db8923d8c3666245f69ed8fc49130ef7a81f?placeholderIfAbsent=true&apiKey=21a904a4570c4407b134859bfb7965ad"
+                src="/Linkedin.png"
                 className="w-7 h-7"
                 alt="LinkedIn icon"
               />
