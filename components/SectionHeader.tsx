@@ -1,26 +1,15 @@
 import React from "react";
 
 interface SectionHeaderProps {
-  badge?: string;
   title: string;
   subtitle: string;
 }
 
-function SectionHeader({ badge, title, subtitle }: SectionHeaderProps) {
+function SectionHeader({ title, subtitle }: SectionHeaderProps) {
   return (
     <header className="flex flex-col self-center max-w-full text-center w-[577px]">
-      {badge && (
-        <div className="flex gap-1.5 cursor-pointer justify-center items-center self-center max-w-full text-base font-medium rounded-3xl border border-sky-300 border-solid bg-slate-100 min-h-[30px] text-zinc-800 w-[153px]">
-          <img
-            src="/badge.png"
-            className="object-contain shrink-0 self-stretch my-auto w-4 aspect-square"
-            alt="Badge icon"
-          />
-          <span className="self-stretch my-auto">{badge}</span>
-        </div>
-      )}
       <h2
-        className={`${badge ? "mt-5" : "mt-8"} text-5xl font-bold text-center leading-[50px] text-neutral-800 max-md:max-w-full max-md:text-4xl max-md:leading-[49px]`}
+        className={`text-5xl font-bold text-center leading-[50px] text-neutral-800 max-md:max-w-full max-md:text-4xl max-md:leading-[49px]`}
       >
         {title}
       </h2>

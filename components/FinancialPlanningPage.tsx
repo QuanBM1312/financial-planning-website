@@ -20,7 +20,6 @@ function FinancialPlanningPage() {
 
       <section className="flex flex-col items-center justify-center mt-40 max-md:mt-10 w-full px-3">
         <SectionHeader
-          badge="Tính năng"
           title="Hiểu về năng lực tài chính của bạn"
           subtitle="Finful thu thập thông tin cơ bản về tình hình tài chính của bạn để đưa ra phân tích và đề xuất phù hợp."
         />

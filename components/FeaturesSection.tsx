@@ -27,7 +27,6 @@ function FeaturesSection() {
   return (
     <section className="flex flex-col mt-28 w-full max-w-[1189px] max-md:mt-10 max-md:max-w-full">
       <SectionHeader 
-        badge="Dành cho bạn"
         title="Finful đứng về phía bạn, vì quyền lợi của bạn"
         subtitle=""
       />
