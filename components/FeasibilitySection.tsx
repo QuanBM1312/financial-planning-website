@@ -20,7 +20,7 @@ function FeasibilitySection() {
                 </p>
               </article>
               <img
-                src="/chart.svg"
+                src="/Chart.svg"
                 className="object-contain mt-9 w-full rounded-none aspect-[4.67] max-md:max-w-full"
                 alt="Feasibility assessment chart"
               />
