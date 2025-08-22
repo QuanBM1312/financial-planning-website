@@ -10,11 +10,14 @@ function HeroSection() {
       />
 
       <nav className="flex relative flex-wrap gap-10 justify-between items-center text-sm font-medium tracking-normal leading-loose text-center text-white max-md:max-w-full">
-        <img
-          src="/finful.png"
-          className="object-contain shrink-0 self-stretch my-auto bg-blend-normal aspect-[3.48] w-[115px]"
-          alt="Finful logo"
-        />
+        <a href="https://finful.co/"
+            target="_blank">
+          <img
+            src="/finful.png"
+            className="object-contain shrink-0 self-stretch my-auto bg-blend-normal aspect-[3.48] w-[115px]"
+            alt="Finful logo"
+          />
+        </a>
         <div className="self-stretch my-auto rounded-lg w-[194px]">
           <a
             href="https://muanha.finful.co/"
